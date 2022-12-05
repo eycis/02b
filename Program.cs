@@ -16,7 +16,7 @@ using (StreamReader streamReader = new StreamReader(@"C:\Users\marie\Downloads\C
         foreach (var item in purchases)
         {
             Console.WriteLine($"{item.Id},{item.transaction},{item.Price},{item.Units},{item.DateofTransaction}");
-        }
+        } 
         Console.WriteLine("-------------------------------------");
         foreach (var item in sales)
         {
