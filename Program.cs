@@ -50,7 +50,7 @@ void getFifo(List<Transaction> purchases, int units, int price, List<Transaction
             units -= purchase.Units;
             purchase.Units = 0;
         }
-        //kdyby tady bylo and možná? 
+
         if (units != 0)
         {
             purchases = (from record in records
